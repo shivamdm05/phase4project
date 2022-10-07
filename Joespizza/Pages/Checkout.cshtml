@@ -1,0 +1,45 @@
+﻿@page
+@model Joespizza.Pages.CheckoutModel
+
+@if(Model.cart != null){
+<center>
+
+
+
+  
+    <h1>Order Confirmation</h1>
+    <div class="card-body">
+      
+          <img src="https://cdn.iconscout.com/icon/free/png-256/confirm-order-1851569-1569294.png"/>
+        <center>
+                @{
+                    Random rnd = new Random();
+                 
+                    int num = rnd.Next(12345, 67890);
+                }
+        Order ID: &nbsp;  @num 
+        @foreach (var item in Model.cart)
+        { 
+            <div>
+            @item.Product.Name &nbsp;
+                    @item.Product.Price  x @item.Quantity &nbsp;
+            </div>
+        }
+        <br />
+        <h4 class="card-title">
+        <tr class="card-title">
+            <td colspan="6" align="right">Total Payable:</td>
+            <td align="center">RS. @Model.Total /-</td>
+        </tr>
+        </h4>
+        <p class="card-text">Thank You for ordering pizza with us! </p>
+        </center>
+    </div>
+
+</center>
+<br />
+<br />
+}
+else {
+    <h4>Your Cart Is Empty</h4>
+}
