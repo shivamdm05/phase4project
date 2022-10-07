@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shiva\\Documents\\GitHub\\phase4project\\Joespizza\\Joespizza\\Joespizza.csproj": {}
+    "C:\\Users\\shiva\\Documents\\GitHub\\phase4project\\phase4project\\Joespizza\\Joespizza.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shiva\\Documents\\GitHub\\phase4project\\Joespizza\\Joespizza\\Joespizza.csproj": {
+    "C:\\Users\\shiva\\Documents\\GitHub\\phase4project\\phase4project\\Joespizza\\Joespizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shiva\\Documents\\GitHub\\phase4project\\Joespizza\\Joespizza\\Joespizza.csproj",
+        "projectUniqueName": "C:\\Users\\shiva\\Documents\\GitHub\\phase4project\\phase4project\\Joespizza\\Joespizza.csproj",
         "projectName": "Joespizza",
-        "projectPath": "C:\\Users\\shiva\\Documents\\GitHub\\phase4project\\Joespizza\\Joespizza\\Joespizza.csproj",
+        "projectPath": "C:\\Users\\shiva\\Documents\\GitHub\\phase4project\\phase4project\\Joespizza\\Joespizza.csproj",
         "packagesPath": "C:\\Users\\shiva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shiva\\Documents\\GitHub\\phase4project\\Joespizza\\Joespizza\\obj\\",
+        "outputPath": "C:\\Users\\shiva\\Documents\\GitHub\\phase4project\\phase4project\\Joespizza\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
